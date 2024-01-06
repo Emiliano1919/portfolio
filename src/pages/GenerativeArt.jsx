@@ -15,6 +15,7 @@ function GenerativeArt() {
 
     context.lineCap = 'square';
     context.lineWidth = 2 * dpr;
+    context.strokeStyle = 'white';
 
     function draw(x, y, width, height) {
       const leftToRight = Math.random() >= 0.5;

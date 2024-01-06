@@ -1,5 +1,5 @@
 body {
-    background: #fff;
+    background-color: black;
     display: flex;
     height: 100vh;
     margin: 0;
@@ -14,7 +14,7 @@ body {
   .frame {
     left: 3%;
     top: 2.5%;
-    background: white;
+    background-color: black;
     align-items: center;
     display: flex;
     padding: 40px;
@@ -26,10 +26,4 @@ body {
     width: 500px;
     background-size: cover;
     background-position: center center;
-  }
-  
-  .callback {
-    position: absolute;
-    font-family: monospace;
-    bottom: 10px;
   }
