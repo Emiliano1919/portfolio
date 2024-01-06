@@ -6,6 +6,7 @@ import About from './pages/About.jsx';
 import NavBar from './pages/NavBar.jsx';
 import Projects from './pages/Projects.jsx';
 import NotFound from './pages/NotFound.jsx';
+import React from 'react'
 
 function App() {
   return(
