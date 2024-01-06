@@ -1,11 +1,11 @@
 import './App.css'
 import {Routes,Route} from 'react-router-dom'
-import GenerativeArt from './pages/GenerativeArt.jsx';
-import Contact from './pages/Contact.jsx';
-import About from './pages/About.jsx';
-import NavBar from './pages/NavBar.jsx';
-import Projects from './pages/Projects.jsx';
-import NotFound from './pages/NotFound.jsx';
+import GenerativeArt from './assets/pages/GenerativeArt.jsx';
+import Contact from './assets/pages/Contact.jsx';
+import About from './assets/pages/About.jsx';
+import NavBar from './assets/pages/NavBar.jsx';
+import Projects from './assets/pages/Projects.jsx';
+import NotFound from './assets/pages/NotFound.jsx';
 
 
 function App() {
