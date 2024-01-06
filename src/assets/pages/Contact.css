@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+body {
+    background-color: black;
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    min-height: 560px;
+    --blur: 2px;
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+.container{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 51rem;
+}
+.question{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+.question h2{
+    font-family: 'Share Tech Mono', monospace;
+    margin: 0;
+    font-size: 4rem;
+}
+.question p{
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+a{
+    font-size: 1.2rem;
+    font-family: cyrRoman, Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    color: rgb(192, 192, 192);
+    padding: 2rem;
+}
+
+a:hover{
+    color: rgb(212, 212, 212);
+    text-shadow: rgb(212, 212, 212) 0px 0px 10px;
+}
