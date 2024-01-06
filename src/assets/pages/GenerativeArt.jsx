@@ -7,7 +7,7 @@ function GenerativeArt() {
     const context = canvas.getContext('2d');
 
     const size = 500;
-    const step = 20;
+    const step = 40;
     const dpr = window.devicePixelRatio;
     canvas.width = size * dpr;
     canvas.height = size * dpr;

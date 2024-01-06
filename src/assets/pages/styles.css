@@ -8,9 +8,10 @@ body{
     background-color: black;
     color: white;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
     padding-top: 1rem;
     padding-left: 3rem;
     padding-right: 3rem;

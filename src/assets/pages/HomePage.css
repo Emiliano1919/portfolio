@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+.your-component {
+    position: relative;
+  }
+  
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: transparent;
+    opacity: 0; /* Start with zero opacity */
+    animation: fadeIn 0.5s forwards; /* Animation duration and timing function */
+}
+  
+@keyframes fadeIn {
+    from {
+      opacity: 0; /* Start with zero opacity */
+    }
+    to {
+      opacity: 1; /* End with full opacity */
+    }
+}
+
+h1{
+    font-family: 'Sora', sans-serif;
+    font-size: 6rem;
+    color: bisque;
+}
+
+div .first{
+    padding-right: 12rem;
+}
+div .second{
+    padding-right: 1rem;
+}
+div .third{
+    padding-left: 17rem;
+}

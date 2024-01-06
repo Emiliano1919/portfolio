@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    min-height: 560px;
+    --blur: 2px;
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+.introduction{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
