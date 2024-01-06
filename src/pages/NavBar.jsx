@@ -6,16 +6,16 @@ function NavBar() {
       <div className="site-title">Emiliano Jimenez</div>
       <ul>
         <li>
-          <Link to='/'>Main</Link>
+          <Link to='portfolio/'>Main</Link>
         </li>
         <li>
-          <Link to='/Projects'>Projects</Link>
+          <Link to='portfolio/Projects'>Projects</Link>
         </li>
         <li>
-          <Link to='/About'>About</Link>
+          <Link to='portfolio/About'>About</Link>
         </li>
         <li>
-          <Link to='/Contact'>Contact</Link>
+          <Link to='portfolio/Contact'>Contact</Link>
         </li>
       </ul>
     </nav>

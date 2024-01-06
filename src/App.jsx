@@ -12,11 +12,11 @@ function App() {
     <>
     <NavBar/>
     <Routes>
-      <Route path='/' element={<GenerativeArt/>}/>
-      <Route path='/Contact' element={<Contact/>}/>
-      <Route path='/About' element={<About/>}/>
-      <Route path='/Projects' element={<Projects/>}/>
-      <Route path='*' element={<NotFound/>}/>
+      <Route path='portfolio/' element={<GenerativeArt/>}/>
+      <Route path='portfolio/Contact' element={<Contact/>}/>
+      <Route path='portfolio/About' element={<About/>}/>
+      <Route path='portfolio/Projects' element={<Projects/>}/>
+      <Route path='portfolio/*' element={<NotFound/>}/>
     </Routes>
     </>
   )
