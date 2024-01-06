@@ -1,8 +1,13 @@
-
+import './NotFound.css';
+/* Inspired by code from: Nataliya Karatkova */
 function NotFound() {
-    return(
-      <div style={{color:'white'}}>404 Not Found</div>
-    )
-  }
-  
-  export default NotFound;
+  return(
+    <>
+      <div className="snow"></div>
+      <div>404 Not Found</div>
+      
+    </>
+  )
+}
+
+export default NotFound;
