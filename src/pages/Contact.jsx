@@ -1,6 +1,6 @@
 function Contact() {
     return(
-      <div style={{color:'black'}}>Contact Page</div>
+      <div style={{color:'white'}}>Contact Page</div>
     )
   }
   

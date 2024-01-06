@@ -1,6 +1,6 @@
 function About() {
     return(
-      <div style={{color:'black'}}>Emiliano Jimenez Guadarrama</div>
+      <div style={{color:'white'}}>I have yet to write my introduction</div>
     )
   }
   

@@ -1,6 +1,6 @@
 function Projects() {
     return(
-      <div style={{color:'black'}}>Projects Page</div>
+      <div style={{color:'white'}}>Projects Page</div>
     )
   }
   

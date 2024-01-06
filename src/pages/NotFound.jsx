@@ -1,6 +1,6 @@
 function NotFound() {
     return(
-      <div style={{color:'black'}}>404 Not Found</div>
+      <div style={{color:'white'}}>404 Not Found</div>
     )
   }
   
