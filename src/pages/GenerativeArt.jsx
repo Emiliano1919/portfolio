@@ -1,6 +1,5 @@
 import './GenerativeArt.css'
 import { useEffect } from 'react';
-import React from 'react'
 
 function GenerativeArt() {
   useEffect(() => {
