@@ -3,53 +3,5 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-body {
-  background: #fff;
-  display: flex;
-  height: 100vh;
-  margin: 0;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  min-height: 560px;
-  --blur: 2px;
-}
-
-
-.frame {
-  left: 3%;
-  top: 2.5%;
-  background: white;
-  align-items: center;
-  display: flex;
-  padding: 40px;
   box-sizing: border-box;
-}
-
-canvas {
-  height: 500px;
-  width: 500px;
-  background-size: cover;
-  background-position: center center;
-}
-
-.callback {
-  position: absolute;
-  font-family: monospace;
-  bottom: 10px;
 }
