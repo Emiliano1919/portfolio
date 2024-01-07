@@ -1,29 +1,26 @@
 body {
     background-color: black;
     display: flex;
-    height: 100dvh;
-    margin: 0;
+    max-height:100dvh;
+    max-width:100dvw;
     align-items: center;
     justify-content: center;
     position: relative;
-    min-height: 560px;
     --blur: 2px;
     padding-left: 6rem;
     padding-right: 6rem;
   }
 .introduction{
+    padding-top: 20dvh;
+    padding-bottom: 20dvh;
+    overflow-y: scroll;
+    max-height: 90dvh; /* Set the maximum height */
     color: white;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    max-width: 51rem;
     font-size: 1.3rem;
-}
-.introduction ul{
-  overflow-y: scroll;
-  padding-top: 20dvh;
-  padding-bottom: 20dvh;
-  max-height: 90dvh; /* Set the maximum height */
+   
 }
 
 .introduction li{
