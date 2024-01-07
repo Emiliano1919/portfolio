@@ -1,12 +1,12 @@
 import './Snow.css';
 /* Inspired by code from: Nataliya Karatkova */
-function NotFound() {
+function Charlotte() {
   return(
     <>
       <div className="snow"></div>
-      <div>404 Not Found</div>
+      <div>Te quiero &lt;3</div>
     </>
   )
 }
 
-export default NotFound;
+export default Charlotte;
