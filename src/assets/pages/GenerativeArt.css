@@ -1,7 +1,7 @@
 body {
     background-color: black;
     display: flex;
-    height: 100vh;
+    height: 100dvh;
     margin: 0;
     align-items: center;
     justify-content: center;
@@ -23,7 +23,7 @@ body {
   
   canvas {
     height: clamp(4dvh,500px,60dvh);
-    width: clamp(5dvw,500px,60dvw);
+    width: clamp(10dvw,500px,60dvw);
     background-size: cover;
     background-position: center center;
   }
