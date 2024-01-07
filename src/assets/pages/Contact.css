@@ -2,7 +2,7 @@
 .body {
     background-color: transparent;
     display: flex;
-    height: 100vh;
+    height: minmax(80dvh,90dvh);
     margin: 0;
     align-items: flex-start;
     position: relative;
