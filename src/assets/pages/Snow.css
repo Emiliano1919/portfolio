@@ -15,7 +15,7 @@ body {
   top: 0;
   left: 0;
   z-index: 5;
-  width: 120%;
+  width: 100%;
   height: 100%;
   pointer-events: none;
   animation: snow-direction cubic-bezier(0.445, 0, 0.55, 1) 4s both alternate infinite;

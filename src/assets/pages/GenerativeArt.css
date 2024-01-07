@@ -6,6 +6,7 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
+    min-height: 560px;
     --blur: 2px;
   }
   
