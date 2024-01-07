@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
 body,
 html {
   height: 100%;
 }
 .main{
     overflow: scroll;
-    max-width: 100dvw;
 }
 .mycomponent {
     position: relative;
@@ -13,6 +13,7 @@ html {
   
 .overlay-text {
     position: absolute;
+    max-width: 80dvw;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -33,12 +34,13 @@ html {
 
 h1{
     font-family: 'Sora', sans-serif;
-    font-size: clamp(1dvh,6.9dvw,7dvw);
+    font-size: clamp(2.5dvh,6dvw,6dvw);
     color: rgb(250, 231, 208);
+    overflow: scroll;
 }
 
 div .first{
-    padding-right: 12rem;
+    padding-right: 17rem;
 }
 div .second{
     padding-right: 1rem;

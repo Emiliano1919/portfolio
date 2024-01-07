@@ -1,14 +1,29 @@
 import './HomePage.css'; // Import your CSS file
 import GenerativeArt from './GenerativeArt.jsx';
+import {useEffect, useState } from 'react';
 
 function HomePage() {
+const [isMobile, setIsMobile] = useState(window.innerWidth <= 768); 
+// For displaying name only if it is not in a mobile phone
+const handleResize = () => {
+    setIsMobile(window.innerWidth <= 768);
+  };
+useEffect(() => {
+    // Event listener for window resize
+    window.addEventListener('resize', handleResize);
+
+    // Clean up the event listener when the component unmounts
+    return () => {
+        window.removeEventListener('resize', handleResize);
+    };
+  }, []);
     return (
         <>
         <div className="main">
             <div className="mycomponent">
                 <GenerativeArt/>
             </div>
-            <div className="overlay-text">
+            {!isMobile?(<div className="overlay-text">
                     <div className='first'>
                         <h1 >Emiliano</h1>
                     </div>
@@ -18,7 +33,8 @@ function HomePage() {
                     <div className='third'>
                         <h1>Guadarrama</h1>
                     </div>
-            </div>
+            </div>): null}
+            
         </div>
         </>
         

@@ -22,7 +22,7 @@ body {
   }
   
   canvas {
-    height: clamp(200px,500px,60dvh);
+    height: clamp(50px,500px,60dvh);
     width: clamp(20dvw,500px,60dvw);
     background-size: cover;
     background-position: center center;
