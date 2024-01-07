@@ -25,7 +25,7 @@
 
 h1{
     font-family: 'Sora', sans-serif;
-    font-size: 6rem;
+    font-size: clamp(7dvh,6.9dvw,8dvw);
     color: rgb(250, 231, 208);
 }
 
