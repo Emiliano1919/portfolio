@@ -18,6 +18,7 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     max-width: 51rem;
+    min-width: 48rem;
 }
 .question{
     display: flex;
@@ -25,6 +26,19 @@ body {
     flex-wrap: wrap;
     align-items: stretch;
 }
+@-webkit-keyframes typing { from { width: 0; } }
+@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+
+h2 { 
+	border-right: .1em solid white;
+	width: calc(0.55em * 14); 
+	width: 22ch;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-animation: typing 2s steps(22, end),
+	           blink-caret .4s step-end infinite alternate;
+}
+
 .question h2{
     font-family: 'Share Tech Mono', monospace;
     margin: 0;
@@ -42,6 +56,18 @@ body {
     align-items: center;
 }
 
+.github,.linkedin{
+    display: flex;
+    align-items: center;
+}
+
+
+svg{
+    padding-right: 0.5rem;
+}
+
+
+
 a{
     font-size: 1.2rem;
     font-family: cyrRoman, Helvetica, Arial, sans-serif;
@@ -54,3 +80,4 @@ a:hover{
     color: rgb(212, 212, 212);
     text-shadow: rgb(212, 212, 212) 0px 0px 10px;
 }
+
