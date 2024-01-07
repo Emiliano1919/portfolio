@@ -21,6 +21,9 @@ body {
 }
 .introduction ul{
   overflow-y: scroll;
+  padding-top: 20dvh;
+  padding-bottom: 20dvh;
+  max-height: 90dvh; /* Set the maximum height */
 }
 
 .introduction li{
