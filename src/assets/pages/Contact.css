@@ -1,38 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
-body {
-    background-color: black;
+.body {
+    background-color: transparent;
     display: flex;
     height: 100vh;
     margin: 0;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
     position: relative;
-    min-height: 560px;
     --blur: 2px;
-    padding-left: 6rem;
-    padding-right: 6rem;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
   }
 .container{
     color: white;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    max-width: 51rem;
-    min-width: 48rem;
+    min-width:68dvw;
+    height: min-content;
 }
 .question{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: stretch;
+    
+    
 }
 @-webkit-keyframes typing { from { width: 0; } }
 @-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
 
 h2 { 
 	border-right: .1em solid white;
-	width: calc(0.55em * 14); 
-	width: 22ch;
+	width: calc(0.55em * 21); 
+	width: 21ch;
 	white-space: nowrap;
 	overflow: hidden;
 	-webkit-animation: typing 2s steps(22, end),
@@ -42,16 +44,17 @@ h2 {
 .question h2{
     font-family: 'Share Tech Mono', monospace;
     margin: 0;
-    font-size: 4rem;
+    font-size: clamp(6dvw, 2.5dvh, 10dvh);
 }
 .question p{
-    font-size: 2rem;
+    font-size: clamp(2dvw, 1.2dvh, 10dvh);
     margin-top: 0;
 }
 
 .links{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: flex-end;
     align-items: center;
 }
@@ -63,20 +66,22 @@ h2 {
 
 
 svg{
-    padding-right: 0.5rem;
+    padding-right: 0.5dvw;
 }
 
+.linkedinSVG{
+    display: flex;
+}
 
-
-a{
-    font-size: 1.2rem;
+.links a{
+    font-size: clamp(1.2dvw, 1.18dvh, 10dvh);
     font-family: cyrRoman, Helvetica, Arial, sans-serif;
     text-decoration: none;
     color: rgb(192, 192, 192);
-    padding: 2rem;
+    padding: 2dvw;
 }
 
-a:hover{
+.links a:hover{
     color: rgb(212, 212, 212);
     text-shadow: rgb(212, 212, 212) 0px 0px 10px;
 }
