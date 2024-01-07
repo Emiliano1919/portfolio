@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
-body{
-    height: 100vh;
-    width: 100vw;
+body,
+html {
+  height: 100%;
 }
-.your-component {
+.main{
+    overflow: scroll;
+    max-width: 100dvw;
+}
+.mycomponent {
     position: relative;
   }
   
@@ -29,7 +33,7 @@ body{
 
 h1{
     font-family: 'Sora', sans-serif;
-    font-size: clamp(7dvh,6.9dvw,8dvw);
+    font-size: clamp(1dvh,6.9dvw,7dvw);
     color: rgb(250, 231, 208);
 }
 

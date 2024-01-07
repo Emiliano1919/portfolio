@@ -4,8 +4,8 @@ import GenerativeArt from './GenerativeArt.jsx';
 function HomePage() {
     return (
         <>
-        <div className="|">
-            <div className="your-component">
+        <div className="main">
+            <div className="mycomponent">
                 <GenerativeArt/>
             </div>
             <div className="overlay-text">
