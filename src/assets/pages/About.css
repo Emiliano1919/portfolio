@@ -19,3 +19,10 @@ body {
     max-width: 51rem;
     font-size: 1.3rem;
 }
+.introduction ul{
+  overflow-y: scroll;
+}
+
+.introduction li{
+  padding: 0.5rem;
+}
