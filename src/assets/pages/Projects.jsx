@@ -7,7 +7,7 @@ function Projects() {
           <ul>
             <li><a href="https://github.com/kvn154/On-the-streets-of-Ottawa">
               On the sreets of Ottawa with Kevin Tawadros and Alexis Taillardat</a></li>
-            <li><a href="on-the-streets-of-ottawa-dashboard.onrender.com">
+            <li><a href="https://github.com/Emiliano1919/On_the_streets_of_Ottawa_Dashboard">
               On the sreets of Ottawa (Dashboard)</a></li>
             <li><a href="https://github.com/Emiliano1919/Who-do-I-bet-on-Insights-from-machine-learning-into-French-Trot-horse-racing">
               Who do I bet on Insights from machine learning into French Trot horse racing</a></li>
