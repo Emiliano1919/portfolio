@@ -26,3 +26,12 @@ body {
 .introduction li{
   padding: 0.5rem;
 }
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+  text-shadow: rgb(168, 167, 167) 0px 0px 10px;
+}
