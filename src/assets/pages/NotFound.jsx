@@ -1,4 +1,4 @@
-import './NotFound.css';
+import './Snow.css';
 /* Inspired by code from: Nataliya Karatkova */
 function NotFound() {
   return(

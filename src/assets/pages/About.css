@@ -17,4 +17,5 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     max-width: 51rem;
+    font-size: 1.3rem;
 }
