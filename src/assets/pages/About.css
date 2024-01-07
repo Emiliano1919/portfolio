@@ -15,13 +15,14 @@ body {
     padding-top: 10dvh;
     padding-bottom: 10dvh;
     overflow-y: scroll;
-    max-height: 90dvh; /* Set the maximum height */
+    max-height: 90dvh; 
     color: white;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     font-size: 1.3rem;
     min-width: 75dvw;
+    animation: fadeIn 1.5s forwards; 
 }
 
 .introduction li{
@@ -35,4 +36,13 @@ a{
 
 a:hover{
   text-shadow: rgb(168, 167, 167) 0px 0px 10px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
