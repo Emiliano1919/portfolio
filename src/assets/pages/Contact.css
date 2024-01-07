@@ -3,6 +3,7 @@
     background-color: transparent;
     display: flex;
     height: minmax(80dvh,90dvh);
+    height: minmax(80dvw,80dvh);
     margin: 0;
     align-items: flex-start;
     position: relative;
