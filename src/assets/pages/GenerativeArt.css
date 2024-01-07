@@ -1,12 +1,11 @@
 body {
     background-color: black;
     display: flex;
-    height: 100dvh;
+    height: 100vh;
     margin: 0;
     align-items: center;
     justify-content: center;
     position: relative;
-    min-height: 560px;
     --blur: 2px;
   }
   
