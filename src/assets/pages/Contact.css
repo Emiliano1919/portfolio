@@ -34,7 +34,6 @@
 
 h2 { 
 	border-right: .1em solid white;
-	width: calc(0.55em * 21); 
 	width: 21ch;
 	white-space: nowrap;
 	overflow: hidden;
