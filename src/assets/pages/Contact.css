@@ -38,7 +38,7 @@ h2 {
 	width: 21ch;
 	white-space: nowrap;
 	overflow: hidden;
-	-webkit-animation: typing 2s steps(22, end),
+	-webkit-animation: typing 2s steps(21, end),
 	           blink-caret .4s step-end infinite alternate;
 }
 
