@@ -34,7 +34,7 @@ html {
 
 h1{
     font-family: 'Sora', sans-serif;
-    font-size: clamp(2.5dvh,6dvw,6dvw);
+    font-size: clamp(2.5dvh,5.3dvw,6dvw);
     color: rgb(250, 231, 208);
     overflow: scroll;
 }

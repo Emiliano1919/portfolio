@@ -6,7 +6,7 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
-    min-height: 560px;
+    margin-top: 5dvh;
     --blur: 2px;
   }
   
@@ -17,7 +17,6 @@ body {
     background-color: black;
     align-items: center;
     display: flex;
-    padding: 40px;
     box-sizing: border-box;
   }
   
