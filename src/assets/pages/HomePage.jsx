@@ -25,13 +25,13 @@ useEffect(() => {
             </div>
             {!isMobile?(<div className="overlay-text">
                     <div className='first'>
-                        <h1 >Emiliano</h1>
+                        <h1 >Someeee</h1>
                     </div>
                     <div className='second'>
-                        <h1>Jimenez</h1>
+                        <h1>Randommm</h1>
                     </div>
                     <div className='third'>
-                        <h1>Guadarrama</h1>
+                        <h1>LongName</h1>
                     </div>
             </div>): null}
             
