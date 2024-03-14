@@ -5,7 +5,7 @@ function About() {
         <div className="snow"></div>
         <div className="introduction">
           <p>
-          Hi, I'm Casiopea, a passionate
+          Hi, I'm Emiliano, a passionate
           self-motivated web developer and data scientist based in Ottawa.</p>
           <p> I'm proficient with React, Python, Java, JavaScript, and PostgreSQL.</p>
           <p>I've used my creativity and problem-solving skills to discover trends,
