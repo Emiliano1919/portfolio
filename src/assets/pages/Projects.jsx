@@ -6,9 +6,9 @@ function Projects() {
         <div className='introduction'>
           <ul>
             <li><a href="https://github.com/" target="_blank" rel="noopener noreferrer">
-              On the sreets of Ottawa with Kevin Tawadros and Alexis Taillardat</a></li>
+              On the streets of Ottawa with Kevin Tawadros and Alexis Taillardat</a></li>
             <li><a href="https://github.com/" target="_blank" rel="noopener noreferrer">
-              On the sreets of Ottawa (Dashboard)</a></li>
+              On the streets of Ottawa (Dashboard)</a></li>
             <li><a href="https://github.com/" target="_blank" rel="noopener noreferrer">
               Who do I bet on Insights from machine learning into French Trot horse racing</a></li>
             <li><a href="" target="_blank" rel="noopener noreferrer">
