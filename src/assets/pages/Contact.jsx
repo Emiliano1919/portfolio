@@ -6,7 +6,7 @@ function Contact() {
           <div className="container">
             <div className="question">
               <h2>WANT TO GET IN TOUCH?</h2>
-              <p>somerandom@gmail.com</p>
+              <p>emilianojg38@gmail.com</p>
             </div>
             <div className="links">
               <a className='github' href="https://github.com/" target="_blank" rel="noopener noreferrer">
