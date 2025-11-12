@@ -1,19 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baumans&display=swap');
 
-body,
-html {
+html, body {
   height: 100%;
+  margin: 0; /* remove default margin that can cause scrollbars */
+  padding: 0;
 }
-.main{
-    overflow: scroll;
+
+.main {
+    overflow: auto; /* was scroll, now only scroll if needed */
 }
+
 .mycomponent {
     position: relative;
-  }
-  
+}
+
 .overlay-text {
     position: absolute;
-    max-width: 80dvw;
+    max-width: 80vw; 
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -22,29 +25,26 @@ html {
     opacity: 0; 
     animation: fadeIn 0.5s forwards; 
 }
-  
+
 @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1; 
-    }
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 
-h1{
-    font-family: 'Sora', sans-serif;
-    font-size: clamp(2.5dvh,5.3dvw,6dvw);
+h1 {
+    font-family: 'Baumans', sans-serif;
+    font-size: clamp(2.5vh, 5.3vw, 6vw);
     color: rgb(250, 231, 208);
-    overflow: scroll;
 }
 
-div .first{
+div .first {
     padding-right: 17rem;
 }
-div .second{
+
+div .second {
     padding-right: 1rem;
 }
-div .third{
+
+div .third {
     padding-left: 17rem;
 }
