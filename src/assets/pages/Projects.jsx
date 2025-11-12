@@ -5,6 +5,18 @@ function Projects() {
       <div className="snow"></div>
         <div className='introduction'>
           <ul>
+            <li><a href="https://github.com/Emiliano1919/Othello-Engine" target="_blank" rel="noopener noreferrer">
+              Improvements to Montecarlo Tree Search in the game of Othello</a></li>
+            <li><a href="https://nanuklovesfish3.itch.io/simple-othello" target="_blank" rel="noopener noreferrer">
+              Play against a fun (not impossible) version of my Othello AI</a></li>
+            <li><a href="https://github.com/Emiliano1919/JavaScript-Raytracing" target="_blank" rel="noopener noreferrer">
+              Implementation of a Raytracer from scratch</a></li>
+            <li><a href="https://emiliano1919.github.io/JavaScript-Raytracing/" target="_blank" rel="noopener noreferrer">
+              Run my Raytracer on your browser here</a></li>
+            <li><a href="https://github.com/Emiliano1919/Javascript-Raycasting" target="_blank" rel="noopener noreferrer">
+              Implementation of a Raycaster from scratch</a></li>
+            <li><a href="https://emiliano1919.github.io/Javascript-Raycasting/" target="_blank" rel="noopener noreferrer">
+              You can look around in my Raycaster here</a></li>
             <li><a href="https://github.com/kvn154/On-the-streets-of-Ottawa" target="_blank" rel="noopener noreferrer">
               On the streets of Ottawa with Kevin Tawadros and Alexis Taillardat</a></li>
             <li><a href="https://github.com/Emiliano1919/On_the_streets_of_Ottawa_Dashboard" target="_blank" rel="noopener noreferrer">
